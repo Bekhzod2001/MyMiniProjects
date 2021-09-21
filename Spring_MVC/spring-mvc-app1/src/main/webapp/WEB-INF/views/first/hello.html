@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>My Hello</title>
+</head>
+<body>
+
+<p>Hello!</p>
+<a href="/spring_mvc_app1_war_exploded/first/goodbye"> Say goodbye</a><br>
+<a href="/spring_mvc_app1_war_exploded/first/exit"> Exit</a>
+<a href="/spring_mvc_app1_war_exploded/first/hello?name=Tom&surname=Alen">Request with param</a>
+
+<p th:text="${message}"></p>
+</body>
+</html>
